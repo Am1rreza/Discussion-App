@@ -1,0 +1,34 @@
+main {
+  background-color: #fff;
+  margin: 0 auto;
+  width: 30rem;
+  min-height: 100vh;
+}
+
+main header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0 1rem;
+  background-color: #fafbfc;
+  padding: 1rem;
+  border-bottom: 1px solid #ccc;
+}
+
+main img {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+main input {
+  font-weight: 500;
+  border: 1px solid #ccc;
+  outline: none;
+  padding: 8px 10px;
+  border-radius: 4px;
+  width: 22rem;
+}

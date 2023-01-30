@@ -6,6 +6,8 @@
   box-sizing: border-box;
 }
 
-body {
+body,
+input,
+button {
   font-family: "Nunito", sans-serif;
 }
