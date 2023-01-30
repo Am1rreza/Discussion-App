@@ -61,3 +61,23 @@ section {
   color: #fff;
   background-color: #235ee7;
 }
+
+.nestedCommentContainer {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nestedComment {
+  padding: 1rem;
+  background-color: #fff;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 0 1rem;
+  width: 84%;
+}
+
+.nestedCommentContainer {
+  border: 0;
+}

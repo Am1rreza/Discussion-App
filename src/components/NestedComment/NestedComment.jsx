@@ -1,7 +1,7 @@
-import "./comment.css";
+import "../Comment/comment.css";
 import { AiFillLike } from "react-icons/ai";
 
-const Comment = ({ discussionsData, commentId, children }) => {
+const NestedComment = ({ discussionsData, commentId }) => {
   // functions
   const getUserAvatar = (id) => {
     const discussion = discussionsData.find((d) => id === d.id);
@@ -35,8 +35,8 @@ const Comment = ({ discussionsData, commentId, children }) => {
   };
 
   return (
-    <section>
-      <div className="comment">
+    <section className="nestedCommentContainer">
+      <div className="nestedComment">
         <img src={getUserAvatar(commentId)} alt="avatar-2" />
         <div className="commentBox">
           <div className="commentTitle">
@@ -56,13 +56,11 @@ const Comment = ({ discussionsData, commentId, children }) => {
               />
               <span>{getLikes(commentId)}</span>
             </button>
-            <a href="#">Reply</a>
           </div>
         </div>
       </div>
-      {children}
     </section>
   );
 };
 
-export default Comment;
+export default NestedComment;

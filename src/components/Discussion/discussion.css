@@ -5,7 +5,7 @@ main {
   min-height: 100vh;
 }
 
-main header {
+header {
   width: 100%;
   display: flex;
   justify-content: space-evenly;
@@ -15,6 +15,7 @@ main header {
   border-bottom: 1px solid #ccc;
 }
 
+header img,
 main img {
   width: 40px;
   height: 40px;
@@ -23,7 +24,7 @@ main img {
   object-position: center;
 }
 
-main input {
+header input {
   font-weight: 500;
   border: 1px solid #ccc;
   outline: none;
