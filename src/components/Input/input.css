@@ -7,6 +7,7 @@
 
 .nestedInput {
   width: 84%;
+  border: 0;
   gap: 0 1rem;
   padding: 1rem;
   background-color: #fff;

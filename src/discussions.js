@@ -1,7 +1,7 @@
 export const discussions = [
   {
     id: 3,
-    date: 1672576574000,
+    date: 2672576574000,
     user: {
       name: "Bessie Cooper",
       avatar:
@@ -54,7 +54,9 @@ export const discussions = [
     id: 1,
     date: 1671886814000,
     user: {
-      name: "Savannah Nguyen",
+      name: "Marvin McKinney",
+      avatar:
+        "https://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50",
     },
     text: "We have just published the first campaign. Let's see the results in the 5 days and we will iterate on this.",
     likes: 50,
@@ -62,4 +64,3 @@ export const discussions = [
     replies: [],
   },
 ];
-

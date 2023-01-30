@@ -29,6 +29,8 @@ const Discussion = () => {
         <NestedComment discussionsData={getRepliesData(3)} commentId={6} />
         <Input getUserAvatar={getUserAvatar} />
       </Comment>
+      <Comment discussionsData={discussionsData} commentId={2}/>
+      <Comment discussionsData={discussionsData} commentId={1}/>
     </main>
   );
 };
