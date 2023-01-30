@@ -1,0 +1,13 @@
+.inputBox {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.nestedInput {
+  width: 84%;
+  gap: 0 1rem;
+  padding: 1rem;
+  background-color: #fff;
+}

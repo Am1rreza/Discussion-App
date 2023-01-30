@@ -1,5 +1,6 @@
 import { discussions } from "../../discussions";
 import Comment from "../Comment/Comment";
+import Input from "../Input/Input";
 import NestedComment from "../NestedComment/NestedComment";
 import "./discussion.css";
 
@@ -26,6 +27,7 @@ const Discussion = () => {
       <Comment discussionsData={discussionsData} commentId={3}>
         <NestedComment discussionsData={getRepliesData(3)} commentId={5} />
         <NestedComment discussionsData={getRepliesData(3)} commentId={6} />
+        <Input getUserAvatar={getUserAvatar} />
       </Comment>
     </main>
   );
