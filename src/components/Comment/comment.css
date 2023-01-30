@@ -1,0 +1,63 @@
+section {
+  width: 100%;
+  border-bottom: 1px solid #ccc;
+}
+
+.comment {
+  padding: 1rem;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+.commentBox {
+  width: 22rem;
+  padding: 0;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.commentTitle {
+  display: flex;
+  align-items: center;
+  gap: 0 0.5rem;
+}
+
+.commentTitle span {
+  color: #bbc0d1;
+  font-size: 12px;
+  margin-top: 2px;
+}
+
+.buttonBox {
+  display: flex;
+  align-items: center;
+  gap: 0 0.7rem;
+  margin-top: 7px;
+}
+
+.likeBtn {
+  background-color: #f4f5fa;
+  border: 0;
+  outline: none;
+  border-radius: 25px;
+  padding: 5px 17px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0 6px;
+  font-weight: 700;
+}
+
+.buttonBox a {
+  text-decoration: none;
+  font-weight: 600;
+  color: #235ee7;
+}
+
+.activeBtn {
+  color: #fff;
+  background-color: #235ee7;
+}

@@ -11,3 +11,7 @@ input,
 button {
   font-family: "Nunito", sans-serif;
 }
+
+body {
+  background-color: #f6f6f6;
+}
