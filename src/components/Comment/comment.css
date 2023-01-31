@@ -69,6 +69,7 @@ section {
 }
 
 .nestedComment {
+  border-left: 3px solid #e5e6eb;
   padding: 1rem;
   background-color: #fff;
   display: flex;
